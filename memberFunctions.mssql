@@ -1,6 +1,13 @@
 -- Stacy Austin member functions 
 
 
+1- Add addition member functions to implement the following two Allen Operators:
+a.	Overlaps
+b.	Includes
+2 -	Write a trigger that fires when a new row is inserted into the ChannelGuide table that raises an error if the new row overlaps with TV programming already in the guide.
+
+
+
 DROP TABLE ChannelGuide;
 
 DROP TYPE BODY TimePeriod;
